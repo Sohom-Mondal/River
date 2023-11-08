@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #053b50;
+  font-family: "Comfortaa", cursive;
+}
+main {
+  margin: 20px;
+}
+#highlight {
+  background-color: #176b87;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+#about {
+  background-color: #176b87;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+#highlight h1,
+#about h1 {
+  font-size: 5rem;
+  text-shadow: 2px 2px 8px black;
+}
+
+#trending-today {
+  background-color: #eeeeee;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+#topics {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+#community {
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+#trending-today > h2,
+#topics > h2,
+#community > h2 {
+  color: black;
+  text-shadow: none;
+  text-shadow: 2px 2px 8px black;
+}
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+  text-shadow: 2px 2px 8px black;
+}
+.card {
+  margin: auto;
+  padding: 10px;
+  transition: all 0.5s;
+  background-color: #053b50;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.btn-primary:hover {
+  background-color: black;
+}
+#section-3 {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  text-align: center;
+}
+#section-3-messege {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+#social-media {
+  display: inline-block;
+}
+#social-media img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer {
+  padding: 20px;
+}
+
+.box-area {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 20px;
+}
+::placeholder {
+  font-size: 16px;
+}
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
